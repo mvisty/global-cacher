@@ -1,0 +1,25 @@
+{
+    "name": "mvisty/global-cacher",
+    "description": "Global cacher",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vitaliy Ivashenko",
+            "email": "v.ivashenko@benamix.solutions"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Mvisty\\GlobalCacher\\": "src/"
+
+        },
+        "classmap": [
+
+        ]
+    },
+    "require": {
+        "php": "^5.6"
+    }
+}
